@@ -1,4 +1,32 @@
-h1 {
+body::before {
+
+    content: '';
+    width: 100%;
+    height: 368px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #121214;
+
+}
+
+.page {
+
+    max-width: 736px;
+    margin: 0 auto;
+
+}
+
+header {
+
+    max-width: 319px;
+
+    margin-top: 74px;
+
+}
+
+header h1 {
 
     font-family: 'Archivo', sans-serif;
     font-weight: bold;
@@ -15,15 +43,17 @@ body {
 
 }
 
-body::before {
+header p {
 
-    content: '';
-    width: 100%;
-    height: 368px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background: #121214;
+    color: #42D3FF;
+    font-size: 16px;
+    line-height: 26px; 
+
+}
+
+form {
+
+    border-radius: 8px 8px 0px 0px;
+    background: #FAFAFC;
 
 }
