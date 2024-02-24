@@ -227,3 +227,37 @@ fieldset .input-wrapper input,
     outline: 2px solid black;
 
 }
+
+footer {
+
+    height: 136px;
+    border-radius: 0px 0px 8px 8px;
+    display: flex;
+    flex-direction: column;
+    background: #F0F0F4;
+    padding: 40px 64px;
+    margin-bottom: 100px;
+    border-top: 1px solid #D6D6D6;;
+
+}
+
+footer .button {
+
+    height: 56px;
+    border-radius: 8px;
+    border: 0;
+    background: #04D361;
+    color: #FFF;
+    font-family: 'Archivo',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    transition: background-color .3s ease;
+
+}
+
+footer .button:hover {
+
+    background: #049b48;
+
+}
