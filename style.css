@@ -261,3 +261,9 @@ footer .button:hover {
     background: #049b48;
 
 }
+
+.input-wrapper input:invalid {
+    border-radius: 8px;
+    border: 1px solid #FF1010;
+    background: #FAFAFC;
+}
